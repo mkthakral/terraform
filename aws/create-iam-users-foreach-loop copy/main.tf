@@ -18,3 +18,4 @@ resource "aws_iam_user" "my_iam_users" {
     country = each.value
   }
 }
+
